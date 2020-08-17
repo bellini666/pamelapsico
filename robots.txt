@@ -1,0 +1,3 @@
+User-Agent: *
+Host: https://pamelapsico.com
+Sitemap: https://pamelapsico.com/sitemap.xml
