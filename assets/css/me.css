@@ -109,20 +109,24 @@ body.page-template-page-fullsingle-me {
   font-size: 45px;
   line-height: 60px;
   letter-spacing: -0.5px;
-  color: #4e4e4e;
+  color: #483a38;
   background-image: url("../../images/background.jpg");
   background-position: center center;
   background-size: cover; }
   body.page-template-page-fullsingle-me p {
     margin-bottom: 28px;
-    color: #4e4e4e; }
+    color: #483a38; }
     @media (max-width: 800px) {
       body.page-template-page-fullsingle-me p {
-        font-size: 32px;
+        font-size: 26px;
         line-height: 40px; } }
+    @media (max-width: 320px) {
+      body.page-template-page-fullsingle-me p {
+        font-size: 24px;
+        line-height: 30px; } }
 
 h2 p {
-  text-shadow: 1px 1px 3px #4e4e4e;
+  text-shadow: 1px 1px 3px #483a38;
   color: white !important;
 }
 
@@ -256,16 +260,16 @@ h2 p {
         .network ul li a .svg-icon path,
         .network ul li a .svg-icon polygon,
         .network ul li a .svg-icon rect {
-          fill: #4e4e4e;
+          fill: #483a38;
           -webkit-transition: 1s;
           transition: 1s; }
         .network ul li a .svg-icon circle {
-          stroke: #4e4e4e;
+          stroke: #483a38;
           stroke-width: 1; }
       .network ul li a:hover .svg-icon path,
       .network ul li a:hover .svg-icon polygon,
       .network ul li a:hover .svg-icon rect {
-        fill: #4e4e4e;
+        fill: #483a38;
         -webkit-transition: 0.1s;
         transition: 0.1s; }
 
@@ -281,7 +285,7 @@ h2 p {
     font-weight: 400;
     opacity: 0.4; }
     .credit p.copyright a {
-      color: #4e4e4e; }
+      color: #483a38; }
 
 body.page-template-page-fullsingle-me.me-video {
   background-image: none; }
