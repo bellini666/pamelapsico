@@ -208,15 +208,27 @@
     </script>
     <!-- Google Ads conversion report -->
     <script>
+      window._eventCalled = false;
       function gtag_report_conversion(url) {
         var callback = function () {
+          if (window._eventCalled) {
+            return;
+          }
+          window._eventCalled = true;
           if (typeof url != "undefined") {
             window.location = url;
           }
         };
+        var timeout = setTimeout(callback, 500);
+        var event_callback = function () {
+          callback();
+          if (timeout != null) {
+            clearTimeout(timeout);
+          }
+        };
         gtag("event", "conversion", {
           send_to: "AW-709064245/4H4jCO7YyeEBELXsjdIC",
-          event_callback: callback,
+          event_callback: event_callback,
         });
         return false;
       }
