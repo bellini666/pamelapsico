@@ -162,6 +162,16 @@ h2 p {
   font-weight: 400;
 }
 
+.svg-contact-button {
+  padding-right: 5px;
+}
+
+.svg-contact-button path,
+.svg-contact-button polygon,
+.svg-contact-button rect {
+  fill: #e6e6e6;
+}
+
 @media (max-width: 800px) {
   .button {
     font-size: 1.5rem;
