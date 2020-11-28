@@ -106,7 +106,7 @@ a {
 }
 
 .bio-item::before {
-  content: "❤ ";
+  content: "• ";
 }
 
 .text-block-2 {
