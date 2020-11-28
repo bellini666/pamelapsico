@@ -109,6 +109,11 @@ a {
   content: "• ";
 }
 
+.bio-item a {
+  font-style: italic;
+  /*text-decoration: underline;*/
+}
+
 .text-block-2 {
   margin-bottom: 20px;
   color: #485462;
