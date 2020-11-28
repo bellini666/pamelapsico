@@ -85,11 +85,28 @@ a {
   line-height: 100%;
 }
 
-.bio {
+.quote,
+.bio-list {
   margin-bottom: 40px;
   color: #848d96;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 140%;
+}
+
+.bio-list {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bio-item {
+  padding-left: 1rem;
+  text-indent: -0.7rem;
+}
+
+.bio-item::before {
+  content: "❤ ";
 }
 
 .text-block-2 {
@@ -102,7 +119,6 @@ a {
 }
 
 .list {
-  font-family: Lora, sans-serif;
   color: #848d96;
   font-size: 16px;
   line-height: 160%;
@@ -227,7 +243,18 @@ a {
 .svg-contact-button path,
 .svg-contact-button polygon,
 .svg-contact-button rect {
-  fill: #e6e6e6;
+  fill: #e6e6e6 !important;
+}
+
+.svg-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+}
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #848d96;
 }
 
 @media screen and (max-width: 991px) {
@@ -329,19 +356,4 @@ a {
     width: 180px;
     height: 180px;
   }
-}
-
-.svg-icon {
-  width: 18px;
-  height: 18px;
-  margin-right: 4px;
-}
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: #848d96;
-}
-.network ul li a .svg-icon circle {
-  stroke: #848d96;
-  stroke-width: 1;
 }
