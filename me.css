@@ -101,6 +101,7 @@ a {
 }
 
 .bio-item {
+  margin-top: 5px;
   padding-left: 1rem;
   text-indent: -0.7rem;
 }
